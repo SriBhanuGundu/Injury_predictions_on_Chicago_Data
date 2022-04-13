@@ -1,1 +1,2 @@
-# Injury_predictions_on_Chicago_Data
+# Data 602 Final Project:
+## Project Proposal:
