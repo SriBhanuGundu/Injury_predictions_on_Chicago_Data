@@ -13,8 +13,11 @@
  #### Visualization:
  The severity of crashes is visualized with pie chart 
  ![image](https://user-images.githubusercontent.com/95875120/163472010-72ae9026-4b04-4e45-b75b-0978104152de.png)
+ 
 Later, observed several conditions for the injuries and no injuries during the crashes.
 ![image](https://user-images.githubusercontent.com/95875120/163472130-bc87f370-08af-4256-b30b-c2b8a92309a1.png)
+
+During my analysis, I observed that most of the crashes happened in febrauary and on saturdays of the year, especially on the weather conditions of clear weather followed by snow, most of the crashes reported based on the primary and secondary resons are unknown. The crashes happened on the dry road with no control on the device especially on the West part of the Chicago city. The most of the crashes reported are when the speed condition is 30 and in the streets of western Ave.
 
 
    
