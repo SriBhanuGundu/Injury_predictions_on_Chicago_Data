@@ -28,10 +28,22 @@ The process of modeling started from cleaning the data with unwanted columns tha
 
 
 So, choosing logistic regression instead of linear regression because linear regression cannot perform regression on categorical variable and with decision trees classification for fitting the model, analysing the overfit in the model with accuracy scores and loss function.
-Logistic regression:
+
+#### Logistic regression:
 
 ![image](https://user-images.githubusercontent.com/95875120/167613930-5bbc4038-08ab-4047-8d2b-7e6daed45b4a.png)
 
-Decision trees:
+#### Decision trees:
 
 ![image](https://user-images.githubusercontent.com/95875120/167613981-d50dd196-f913-4208-a66c-6285f31e0805.png)
+
+Among them, the overfitting and impurity issues are found to be higher in the case of decision trees as compared with the logistic regression.
+
+Then the number of components for dimension reduction with PCA of threshold greater than 95% is found with components as 27, then with k means clustering 13 optimal clusters are found with elbow method.
+
+![image](https://user-images.githubusercontent.com/95875120/167614911-a17a32ec-8e00-429f-ad66-cdf5e60ed4f1.png)
+
+Due to the overfitting issues, best components for logistic regression and decision trees with several combinations including pca and kmeans found that the logistic regression performing better than the decision trees.
+
+## Conclusion:
+   In conclusion, from both EDA and modeling, the severity of injuries are more in case of "No Injury" and models are % accurate in predicting the severity of injuries and the reasons for the severity during crashes can be reduced by the analysis of weather, device condition, lightning, particular street, road condition. In future, the precautions in driving during several external factors helps in mitigating the severity of injuries during the vehicle crashes.
