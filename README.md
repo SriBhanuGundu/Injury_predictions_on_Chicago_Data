@@ -22,3 +22,14 @@ During my analysis, I observed that most of the crashes happened in febrauary an
 
    
 ## Modeling:
+The process of modeling started from cleaning the data with unwanted columns that includes columns with missing values of more than 90%, columns providing the correlation of greater than or equal to 70%, outliers numerical columns that affecting the dataset and the skewness in the dataset by calculating the upper limit and lower limit and comparing with Interquartile range. Later in the feature processing, the steps followed by me is initially dividing the cleaned and dropped dataset into numerical and categorical columns. Then, splitting the datasets into train and test samples with a split of 20%, imputing the numerical columns with 'median' after analysing from the EDA and standard scaling the data instead of minmaxscaler because standard scaler provides better performance and then impting the categorical data with most frequent values and encoding the data with binary 0 and 1. Finally transforming the data through column transformer for modeling. As my target variable is binary class which is imbalanced and categorical type. 
+
+![image](https://user-images.githubusercontent.com/95875120/167613722-5fb24e5a-ee84-4945-a5ea-265c3f9fc2c2.png)
+
+
+So, choosing logistic regression instead of linear regression because linear regression cannot perform regression on categorical variable and with decision trees classification for fitting the model, analysing the overfit in the model with accuracy scores and loss function.
+Logistic regression:
+![image](https://user-images.githubusercontent.com/95875120/167613930-5bbc4038-08ab-4047-8d2b-7e6daed45b4a.png)
+
+Decision trees:
+![image](https://user-images.githubusercontent.com/95875120/167613981-d50dd196-f913-4208-a66c-6285f31e0805.png)
