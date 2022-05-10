@@ -29,7 +29,9 @@ The process of modeling started from cleaning the data with unwanted columns tha
 
 So, choosing logistic regression instead of linear regression because linear regression cannot perform regression on categorical variable and with decision trees classification for fitting the model, analysing the overfit in the model with accuracy scores and loss function.
 Logistic regression:
+
 ![image](https://user-images.githubusercontent.com/95875120/167613930-5bbc4038-08ab-4047-8d2b-7e6daed45b4a.png)
 
 Decision trees:
+
 ![image](https://user-images.githubusercontent.com/95875120/167613981-d50dd196-f913-4208-a66c-6285f31e0805.png)
