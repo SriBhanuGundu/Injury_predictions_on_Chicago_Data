@@ -46,7 +46,7 @@ Then the number of components for dimension reduction with PCA of threshold grea
 Due to the overfitting issues, best components for logistic regression and decision trees with several combinations including pca and kmeans found that the logistic regression performing better than the decision trees.
 
 ## Conclusion:
-   In conclusion, from both EDA and modeling, the severity of injuries are more in case of "No Injury" and models are % accurate in predicting the severity of injuries and the reasons for the severity during crashes can be reduced by the analysis of weather, device condition, lightning, particular street, road condition. In future, the precautions in driving during several external factors helps in mitigating the severity of injuries during the vehicle crashes.
+   In conclusion, from both EDA and modeling, the severity of injuries are more in case of "No Injury" and models are 85% accurate in predicting the severity of injuries and the reasons for the severity during crashes can be reduced by the analysis of weather, device condition, lightning, particular street, road condition. In future, the precautions in driving during several external factors helps in mitigating the severity of injuries during the vehicle crashes.
 
 ## Youtube Link:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/12RPW-8Nbik" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
